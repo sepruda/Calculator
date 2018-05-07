@@ -1,0 +1,24 @@
+.calculator-keys {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: #2196F3;
+  	padding: 10px;
+}
+.calculator-keys button  {
+	background-color: rgba(255, 255, 255, 0.8);
+  	border: 1px solid rgba(0, 0, 0, 0.8);
+  	padding: 20px;
+  	font-size: 30px;
+  	text-align: center;
+}
+.key--operator-add {
+	grid-row-start: 6; 
+	grid-row-end: 4;
+	grid-column-start: 4
+
+}
+.calculator-display {
+	padding: 20px;
+  	font-size: 30px;
+  	text-align: right;
+}

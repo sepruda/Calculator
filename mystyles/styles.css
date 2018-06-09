@@ -9,8 +9,8 @@ body {
 	margin: auto;
 	background-color: lightgrey;
 	padding: 13px;
-	box-shadow: 
-		inset -6px -8px 50px -6px rgba(89,86,89,0.75);
+	/*box-shadow: */
+		/*inset -6px -8px 50px -6px rgba(89,86,89,0.75);*/
 }
 
 .calculator-display {
@@ -20,7 +20,7 @@ body {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	height: 40px;
-	box-shadow: inset 0px -7px 42px -10px rgba(3,0,3,1);
+	/*box-shadow: inset 0px -7px 42px -10px rgba(3,0,3,1);*/
 
 }
 
@@ -40,11 +40,7 @@ body {
   	padding: 20px;
   	font-size: 30px;
   	text-align: center;
-  	box-shadow: 
-  		inset 0px 4px 31px 1px rgba(250,250,250,0.60),
-  		inset 0px -7px 42px -10px rgba(3,0,3,1),
-  		6px 5px 38px -9px rgba(77,75,77,1),
-  		10px 10px 7px -10px rgba(5,5,5,1);
+
 }
 .key--operator-add {
 	grid-row-start: 6; 
@@ -56,4 +52,11 @@ body {
 	padding: 20px;
   	font-size: 50px;
   	text-align: right;
+}
+button:focus {
+	outline: none; 
+}
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
